@@ -1,0 +1,12 @@
+{
+    "name": "socketio-client-for-youtube-live-chat",
+    "description": "chrome extension for streaming youtube live chat to websocket server to use chat data without youtube api",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "scripts": [
+            "socket.io.js",
+            "background.js"
+        ]
+    }
+}
